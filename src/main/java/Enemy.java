@@ -3,9 +3,12 @@ public abstract class Enemy {
     private int attack;
     private int health;
 
-    public Enemy(){
+    public Enemy(int attack, int health){
         this.attack = attack;
         this.health = health;
     }
 
+    public int getAttack() {
+        return this.attack;
+    }
 }
