@@ -3,23 +3,24 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class MaceWinduTest {
+public class YodaTest {
 
-    MaceWindu macewindu;
+    Yoda yoda;
 
     @Before
     public void before(){
-        macewindu = new MaceWindu(100, 500);
+        yoda = new Yoda(50, 300);
     }
 
     @Test
     public void hasAttack() {
-        assertEquals(100, macewindu.getAttack());
+        assertEquals(50, yoda.getAttack());
     }
 
     @Test
     public void hasHealth() {
-        assertEquals(500, macewindu.getHealth());
+        assertEquals(300, yoda.getHealth());
     }
+
 
 }
