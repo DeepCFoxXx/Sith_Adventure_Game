@@ -3,22 +3,22 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PloKoonTest {
+public class FinnTest {
 
-    PloKoon ploKoon;
+    Finn finn;
 
     @Before
     public void before(){
-        ploKoon = new PloKoon(40, 250);
+        finn = new Finn(40, 250);
     }
 
     @Test
     public void hasAttack() {
-        assertEquals(40, ploKoon.getAttack());
+        assertEquals(40, finn.getAttack());
     }
 
     @Test
     public void hasHealth() {
-        assertEquals(250, ploKoon.getHealth());
+        assertEquals(250, finn.getHealth());
     }
 }
