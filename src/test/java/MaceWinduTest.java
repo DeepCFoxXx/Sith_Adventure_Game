@@ -13,7 +13,13 @@ public class MaceWinduTest {
     }
 
     @Test
-    public void hasAttack(){
+    public void hasAttack() {
         assertEquals(100, macewindu.getAttack());
     }
+
+    @Test
+    public void hasHealth() {
+        assertEquals(500, macewindu.getHealth());
+    }
+    
 }

@@ -11,4 +11,8 @@ public abstract class Enemy {
     public int getAttack() {
         return this.attack;
     }
+
+    public int getHealth() {
+        return this.health;
+    }
 }
