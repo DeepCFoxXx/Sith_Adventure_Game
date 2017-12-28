@@ -25,4 +25,9 @@ public class MaceWinduTest {
         assertEquals(500, macewindu.getHealth());
     }
 
+    @Test
+    public void canTakeDamage(){
+        macewindu.takeDamage(150);
+        assertEquals(350, macewindu.getHealth());
+    }
 }

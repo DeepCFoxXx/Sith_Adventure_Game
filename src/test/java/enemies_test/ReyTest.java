@@ -24,4 +24,6 @@ public class ReyTest {
     public void hasHealth() {
         assertEquals(600, rey.getHealth());
     }
+
+    
 }
