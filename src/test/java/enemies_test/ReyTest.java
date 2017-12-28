@@ -25,5 +25,9 @@ public class ReyTest {
         assertEquals(600, rey.getHealth());
     }
 
-    
+    @Test
+    public void canTakeDamage(){
+        rey.takeDamage(150);
+        assertEquals(450, rey.getHealth());
+    }
 }
