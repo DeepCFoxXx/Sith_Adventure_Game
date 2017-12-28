@@ -11,4 +11,7 @@ public class DarthMaul extends Fighter {
         this.speed = speed;
     }
 
+    public int getSpeed() {
+        return this.speed;
+    }
 }

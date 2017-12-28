@@ -35,4 +35,9 @@ public class DarthMaulTest {
     public void hasHealth() {
         assertEquals(550, darthMaul.getHealth());
     }
+
+    @Test
+    public void hasSpeed(){
+        assertEquals(30, darthMaul.getSpeed());
+    }
 }
