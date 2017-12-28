@@ -30,4 +30,9 @@ public class DarthMaulTest {
     public void hasName() {
         assertEquals("Darth Maul", darthMaul.getName());
     }
+
+    @Test
+    public void hasHealth() {
+        assertEquals(550, darthMaul.getHealth());
+    }
 }
