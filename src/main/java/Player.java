@@ -10,4 +10,7 @@ public abstract class Player {
         this.health = health;
     }
 
+    public String getName() {
+        return this.name;
+    }
 }
