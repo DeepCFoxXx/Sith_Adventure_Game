@@ -1,3 +1,5 @@
+package enemies_test;
+
 import enemies.MaceWindu;
 import org.junit.Before;
 import org.junit.Test;

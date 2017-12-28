@@ -1,3 +1,5 @@
+package sith.weapons;
+
 import enemies.Enemy;
 
 public interface IWeapon {

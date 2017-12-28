@@ -1,27 +1,27 @@
-import enemies.Yoda;
+package enemies_test;
+
+import enemies.Rey;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class YodaTest {
+public class ReyTest {
 
-    Yoda yoda;
+    Rey rey;
 
     @Before
     public void before(){
-        yoda = new Yoda(50, 300);
+        rey = new Rey(120, 600);
     }
 
     @Test
     public void hasAttack() {
-        assertEquals(50, yoda.getAttack());
+        assertEquals(120, rey.getAttack());
     }
 
     @Test
     public void hasHealth() {
-        assertEquals(300, yoda.getHealth());
+        assertEquals(600, rey.getHealth());
     }
-
-
 }

@@ -1,25 +1,29 @@
-import enemies.Finn;
+package enemies_test;
+
+import enemies.Yoda;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class FinnTest {
+public class YodaTest {
 
-    Finn finn;
+    Yoda yoda;
 
     @Before
     public void before(){
-        finn = new Finn(40, 250);
+        yoda = new Yoda(50, 300);
     }
 
     @Test
     public void hasAttack() {
-        assertEquals(40, finn.getAttack());
+        assertEquals(50, yoda.getAttack());
     }
 
     @Test
     public void hasHealth() {
-        assertEquals(250, finn.getHealth());
+        assertEquals(300, yoda.getHealth());
     }
+
+
 }

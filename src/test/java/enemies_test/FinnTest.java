@@ -1,25 +1,27 @@
-import enemies.Rey;
+package enemies_test;
+
+import enemies.Finn;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ReyTest {
+public class FinnTest {
 
-    Rey rey;
+    Finn finn;
 
     @Before
     public void before(){
-        rey = new Rey(120, 600);
+        finn = new Finn(40, 250);
     }
 
     @Test
     public void hasAttack() {
-        assertEquals(120, rey.getAttack());
+        assertEquals(40, finn.getAttack());
     }
 
     @Test
     public void hasHealth() {
-        assertEquals(600, rey.getHealth());
+        assertEquals(250, finn.getHealth());
     }
 }
