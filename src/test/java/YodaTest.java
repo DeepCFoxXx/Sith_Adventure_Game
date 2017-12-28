@@ -1,3 +1,4 @@
+import enemies.Yoda;
 import org.junit.Before;
 import org.junit.Test;
 

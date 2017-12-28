@@ -1,4 +1,8 @@
-public class Rey extends Enemy{
+package enemies;
+
+import enemies.Enemy;
+
+public class Rey extends Enemy {
 
     public Rey(int attack, int health){
         super(attack, health);
