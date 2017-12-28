@@ -11,4 +11,11 @@ public class DarthVader extends Fighter {
         this.armour = armour;
     }
 
+    public int getArmour() {
+        return this.armour;
+    }
+
+    public String speak() {
+        return "I am altering the deal, pray I do not alter it any further…";
+    }
 }

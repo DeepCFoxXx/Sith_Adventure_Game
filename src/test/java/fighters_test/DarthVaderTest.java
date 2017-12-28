@@ -4,10 +4,13 @@ package fighters_test;
 import enemies.Enemy;
 import enemies.Yoda;
 import org.junit.Before;
+import org.junit.Test;
 import players.fighters.DarthVader;
 import sith.weapons.CrossGuardLightsaber;
 import sith.weapons.IWeapon;
 import sith.weapons.Lightsaber;
+
+import static org.junit.Assert.assertEquals;
 
 public class DarthVaderTest {
 
@@ -24,4 +27,42 @@ public class DarthVaderTest {
       enemy = new Yoda(50, 300, "Yoda");
     }
 
+    @Test
+    public void hasName() {
+        assertEquals("Darth Vader", darthVader.getName());
+    }
+
+    @Test
+    public void hasHealth() {
+        assertEquals(1000, darthVader.getHealth());
+    }
+
+    @Test
+    public void hasArmour() {
+        assertEquals(100, darthVader.getArmour());
+    }
+
+    @Test
+    public void canSpeak() {
+        assertEquals("I am altering the deal, pray I do not alter it any further…", darthVader.speak());
+    }
+
+    @Test
+    public void canSwapWeapons() {
+        darthVader.setWeapon(crossGuardLightsaber);
+        darthVader.attack(enemy);
+        assertEquals(120, enemy.getHealth());
+    }
+
+    @Test
+    public void canTakeDamage() {
+        darthVader.takeDamage(50);
+        assertEquals(950, darthVader.getHealth());
+    }
+
+    @Test
+    public void canAttack() {
+        darthVader.attack(enemy);
+        assertEquals(150, enemy.getHealth());
+    }
 }
