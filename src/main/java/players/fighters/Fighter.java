@@ -11,4 +11,8 @@ public abstract class Fighter extends Player {
         super(name, health);
         this.weapon = weapon;
     }
+
+    public void setWeapon(IWeapon weapon) {
+        this.weapon = weapon;
+    }
 }

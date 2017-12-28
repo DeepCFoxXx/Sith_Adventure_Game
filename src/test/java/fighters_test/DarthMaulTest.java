@@ -45,4 +45,17 @@ public class DarthMaulTest {
     public void canSpeak(){
         assertEquals("At last we will reveal ourselves to the jedi", darthMaul.speak());
     }
+
+//    @Test
+//    public void canSwapWeapon(){
+//        darthMaul.setWeapon(lightsaber);
+//        darthMaul.attack(enemy);
+//        assertEquals(350, enemy.getHealth());
+//    }
+
+     @Test
+    public void canTakeDamge(){
+        darthMaul.takeDamage(100);
+        assertEquals(450, darthMaul.getHealth());
+     }
 }

@@ -1,5 +1,8 @@
 package players;
 
+import enemies.Enemy;
+import sith.weapons.IWeapon;
+
 public abstract class Player {
 
     private String name;
@@ -16,5 +19,14 @@ public abstract class Player {
 
     public int getHealth() {
         return this.health;
+    }
+
+
+    public void attack(Enemy enemy, IWeapon weapon) {
+        weapon.attack(enemy);
+    }
+
+    public void takeDamage(int damage) {
+        this.health -= damage;
     }
 }
