@@ -22,9 +22,9 @@ public abstract class Player {
     }
 
 
-    public void attack(Enemy enemy, IWeapon weapon) {
-        weapon.attack(enemy);
-    }
+//    public void attack(Enemy enemy, IWeapon weapon) {
+//        weapon.attack(enemy);
+//    }
 
     public void takeDamage(int damage) {
         this.health -= damage;

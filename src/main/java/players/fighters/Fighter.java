@@ -1,5 +1,6 @@
 package players.fighters;
 
+import enemies.Enemy;
 import players.Player;
 import sith.weapons.IWeapon;
 
@@ -14,5 +15,9 @@ public abstract class Fighter extends Player {
 
     public void setWeapon(IWeapon weapon) {
         this.weapon = weapon;
+    }
+
+    public void attack(Enemy enemy) {
+        this.weapon.attack(enemy);
     }
 }
