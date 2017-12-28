@@ -4,8 +4,8 @@ import enemies.Enemy;
 
 public class Yoda extends Enemy {
 
-    public Yoda(int attack, int health){
-        super (attack, health);
+    public Yoda(int attack, int health, String name){
+        super (attack, health, name);
     }
 
 }

@@ -12,7 +12,7 @@ public class YodaTest {
 
     @Before
     public void before(){
-        yoda = new Yoda(50, 300);
+        yoda = new Yoda(50, 300, "Yoda");
     }
 
     @Test
@@ -23,6 +23,11 @@ public class YodaTest {
     @Test
     public void hasHealth() {
         assertEquals(300, yoda.getHealth());
+    }
+
+    @Test
+    public void hasName() {
+        assertEquals("Yoda", yoda.getName());
     }
 
     @Test

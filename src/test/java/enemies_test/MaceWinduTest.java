@@ -12,7 +12,7 @@ public class MaceWinduTest {
 
     @Before
     public void before(){
-        macewindu = new MaceWindu(100, 500);
+        macewindu = new MaceWindu(100, 500, "Mace Windu");
     }
 
     @Test
@@ -23,6 +23,11 @@ public class MaceWinduTest {
     @Test
     public void hasHealth() {
         assertEquals(500, macewindu.getHealth());
+    }
+
+    @Test
+    public void hasName() {
+        assertEquals("Mace Windu", macewindu.getName());
     }
 
     @Test

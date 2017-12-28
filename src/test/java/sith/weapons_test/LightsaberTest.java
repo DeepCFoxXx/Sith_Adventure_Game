@@ -16,7 +16,7 @@ public class LightsaberTest {
     @Before
     public void before(){
         lightsaber = new Lightsaber();
-        enemy = new Finn(40, 250);
+        enemy = new Finn(40, 250, "Finn");
     }
 
     @Test

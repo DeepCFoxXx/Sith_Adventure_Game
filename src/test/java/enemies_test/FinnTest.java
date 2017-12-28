@@ -12,7 +12,7 @@ public class FinnTest {
 
     @Before
     public void before() {
-        finn = new Finn(40, 250);
+        finn = new Finn(40, 250, "Finn");
     }
 
     @Test
@@ -23,6 +23,11 @@ public class FinnTest {
     @Test
     public void hasHealth() {
         assertEquals(250, finn.getHealth());
+    }
+
+    @Test
+    public void hasName(){
+        assertEquals("Finn", finn.getName());
     }
 
     @Test

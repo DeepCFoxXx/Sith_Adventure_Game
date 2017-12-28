@@ -23,7 +23,7 @@ public class DarthMaulTest {
         doubleBladedLightsaber = new DoubleBladedLightsaber();
         lightsaber = new Lightsaber();
         darthMaul = new DarthMaul("Darth Maul", 550, doubleBladedLightsaber, 30);
-        enemy = new MaceWindu(100, 500);
+        enemy = new MaceWindu(100, 500, "Mace Windu");
     }
 
     @Test

@@ -12,7 +12,7 @@ public class ReyTest {
 
     @Before
     public void before(){
-        rey = new Rey(120, 600);
+        rey = new Rey(120, 600, "Rey");
     }
 
     @Test
@@ -23,6 +23,11 @@ public class ReyTest {
     @Test
     public void hasHealth() {
         assertEquals(600, rey.getHealth());
+    }
+
+    @Test
+    public void hasName() {
+        assertEquals("Rey", rey.getName());
     }
 
     @Test

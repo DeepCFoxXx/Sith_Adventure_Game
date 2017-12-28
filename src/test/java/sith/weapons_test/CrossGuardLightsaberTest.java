@@ -16,7 +16,7 @@ public class CrossGuardLightsaberTest {
     @Before
     public void before(){
         crossGuardLightsaber = new CrossGuardLightsaber();
-        enemy = new Rey(120, 600);
+        enemy = new Rey(120, 600, "Rey");
     }
 
     @Test

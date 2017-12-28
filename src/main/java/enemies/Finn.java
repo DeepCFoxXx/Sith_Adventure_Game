@@ -4,8 +4,8 @@ import enemies.Enemy;
 
 public class Finn extends Enemy {
 
-    public Finn(int attack, int health){
-        super (attack, health);
+    public Finn(int attack, int health, String name){
+        super (attack, health, name);
     }
 
 }

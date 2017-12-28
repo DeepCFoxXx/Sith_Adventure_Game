@@ -16,7 +16,7 @@ public class DoubleBladedLightsaberTest {
     @Before
     public void before(){
         doubleBladedLightsaber = new DoubleBladedLightsaber();
-        enemy = new MaceWindu(100, 500);
+        enemy = new MaceWindu(100, 500, "Mace Windu");
     }
 
     @Test

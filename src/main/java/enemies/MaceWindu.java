@@ -4,8 +4,8 @@ import enemies.Enemy;
 
 public class MaceWindu extends Enemy {
 
-    public MaceWindu(int attack, int health){
-        super (attack, health);
+    public MaceWindu(int attack, int health, String name){
+        super (attack, health, name);
     }
 
 }
