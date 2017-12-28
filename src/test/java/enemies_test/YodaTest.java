@@ -25,5 +25,10 @@ public class YodaTest {
         assertEquals(300, yoda.getHealth());
     }
 
+    @Test
+    public void canTakeDamage(){
+        yoda.takeDamage(150);
+        assertEquals(150, yoda.getHealth());
+    }
 
 }
