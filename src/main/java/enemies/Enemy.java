@@ -17,4 +17,8 @@ public abstract class Enemy {
     public int getHealth() {
         return this.health;
     }
+
+    public void takeDamage(int value) {
+        this.health -= value;
+    }
 }
