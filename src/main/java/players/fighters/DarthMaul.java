@@ -14,4 +14,8 @@ public class DarthMaul extends Fighter {
     public int getSpeed() {
         return this.speed;
     }
+
+    public String speak() {
+        return "At last we will reveal ourselves to the jedi";
+    }
 }

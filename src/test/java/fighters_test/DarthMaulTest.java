@@ -40,4 +40,9 @@ public class DarthMaulTest {
     public void hasSpeed(){
         assertEquals(30, darthMaul.getSpeed());
     }
+
+    @Test
+    public void canSpeak(){
+        assertEquals("At last we will reveal ourselves to the jedi", darthMaul.speak());
+    }
 }
