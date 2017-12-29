@@ -65,4 +65,19 @@ public class DarthVaderTest {
         darthVader.attack(enemy);
         assertEquals(150, enemy.getHealth());
     }
+
+    @Test
+    public void enemyHasName() {
+        assertEquals("Yoda", enemy.getName());
+    }
+
+    @Test
+    public void enemyHasHealth() {
+        assertEquals(300, enemy.getHealth());
+    }
+
+    @Test
+    public void enemyHasAttack() {
+        assertEquals(50, enemy.getAttack());
+    }
 }

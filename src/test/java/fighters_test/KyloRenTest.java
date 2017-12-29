@@ -65,4 +65,19 @@ public class KyloRenTest {
         kyloRen.attack(enemy);
         assertEquals(420, enemy.getHealth());
     }
+
+    @Test
+    public void enemyHasName() {
+        assertEquals("Rey", enemy.getName());
+    }
+
+    @Test
+    public void enemyHasAttack() {
+        assertEquals(120, enemy.getAttack());
+    }
+
+    @Test
+    public void enemyHasHealth() {
+        assertEquals(600, enemy.getHealth());
+    }
 }
