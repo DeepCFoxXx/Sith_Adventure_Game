@@ -25,4 +25,19 @@ public class ForceLightningTest {
         assertEquals(400, enemy.getHealth());
     }
 
+    @Test
+    public void enemyHasName(){
+        assertEquals("Mace Windu", enemy.getName());
+    }
+
+    @Test
+    public void enemyHasAttack(){
+        assertEquals(100, enemy.getAttack());
+    }
+
+    @Test
+    public void enemyHasHealth(){
+        assertEquals(500, enemy.getHealth());
+    }
+
 }
