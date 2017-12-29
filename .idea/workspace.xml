@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/force_users/force_powers/ForcePush.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/force_ability_test/ForceLightningTest.class" afterPath="$PROJECT_DIR$/out/test/classes/force_ability_test/ForceLightningTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java" afterPath="$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java" />
-    </list>
+    <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,7 +48,7 @@
       <file leaf-file-name="ForceLightningTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="581">
               <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForcePush.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ForcePush.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/ForcePush.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -85,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForcePushTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForcePushTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
@@ -858,11 +852,11 @@
     <history-entry file="All_in_Sith_Adventure_test - 2017.12.29 at 15h 26m 30s.xml">
       <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Sith_Adventure_test - 2017.12.29 at 15h 55m 01s.xml">
+      <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DarthVaderTest_enemyHasAttack - 2017.12.29 at 14h 19m 03s.xml">
       <configuration name="DarthVaderTest.enemyHasAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DarthVaderTest_enemyHasHealth - 2017.12.29 at 14h 18m 14s.xml">
-      <configuration name="DarthVaderTest.enemyHasHealth" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ForceLightningTest_canUse - 2017.12.29 at 15h 10m 26s.xml">
       <configuration name="ForceLightningTest.canUse" configurationId="JUnit" />
@@ -1534,22 +1528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/ForceLightning.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1564,6 +1542,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/ForcePush.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1574,22 +1584,6 @@
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
           </folding>
         </state>
       </provider>
