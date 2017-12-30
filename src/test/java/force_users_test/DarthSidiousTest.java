@@ -40,4 +40,20 @@ public class DarthSidiousTest {
     public void hasHealth() {
         assertEquals(400, darthSidious.getHealth());
     }
+
+//    @Test
+//    public void canUseForce() {
+//        darthSidious.use(enemy);
+//        assertEquals(400, enemy.getHealth());
+//    }
+
+//    @Test
+//    public void canChangeForcePower() {
+//        darthSidious.setForcePower(forcePush);
+//        darthSidious.use(enemy);
+//        assertEquals(430, enemy.getHealth());
+//    }
+
+
+
 }

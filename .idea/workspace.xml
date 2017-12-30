@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" afterPath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/ForceUser.class" afterPath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/ForceUser.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" afterPath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" afterPath="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,14 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <file leaf-file-name="IAbility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,22 +37,11 @@
       <file leaf-file-name="ForceUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="83" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="83" />
+            <state relative-caret-position="336">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DarthSidious.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1514653212999" expanded="true" signature="500:571" ph="..." />
               </folding>
             </state>
           </provider>
@@ -62,13 +50,56 @@
       <file leaf-file-name="DarthSidiousTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="530">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#986#987#0" expanded="true" />
                 <element signature="e#1055#1056#0" expanded="true" />
                 <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DarthSidious.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForceLightning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/ForceLightning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForcePushTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -428,8 +459,8 @@
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_powers/ForceLightning.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_powers/ForcePush.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" />
+        <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
       </list>
     </option>
@@ -582,6 +613,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="force_users_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sith_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sith_Adventure_Game" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="weapons_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -618,7 +657,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarthSidiousTest.hasHealth">
+  <component name="RunManager" selected="JUnit.All in Sith_Adventure_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -659,7 +698,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DarthSidiousTest.hasHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DarthSidiousTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="force_users_test.*" />
@@ -671,56 +710,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="force_users_test" />
       <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
-      <option name="METHOD_NAME" value="hasHealth" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DarthSidiousTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="force_users_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Sith_Adventure_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="force_users_test" />
-      <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SuperStarDestroyerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="summons_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Sith_Adventure_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="summons_test" />
-      <option name="MAIN_CLASS_NAME" value="summons_test.SuperStarDestroyerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -734,19 +723,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SuperStarDestroyerTest.canSummon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DarthSidiousTest.canChangeForcePower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="summons_test.*" />
+          <option name="PATTERN" value="force_users_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Sith_Adventure_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="summons_test" />
-      <option name="MAIN_CLASS_NAME" value="summons_test.SuperStarDestroyerTest" />
-      <option name="METHOD_NAME" value="canSummon" />
+      <option name="PACKAGE_NAME" value="force_users_test" />
+      <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
+      <option name="METHOD_NAME" value="canChangeForcePower" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DarthSidiousTest.canUseForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="force_users_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Sith_Adventure_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="force_users_test" />
+      <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
+      <option name="METHOD_NAME" value="canUseForce" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DarthSidiousTest.hasHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="force_users_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Sith_Adventure_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="force_users_test" />
+      <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
+      <option name="METHOD_NAME" value="hasHealth" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -820,19 +859,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest.canSummon" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasName" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasHealth" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasHealth" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canUseForce" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canChangeForcePower" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasHealth" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasName" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest.canSummon" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canUseForce" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canChangeForcePower" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasHealth" />
       </list>
     </recent_temporary>
   </component>
@@ -853,40 +892,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Sith_Adventure_test - 2017.12.30 at 14h 39m 34s.xml">
+    <history-entry file="All_in_Sith_Adventure_test - 2017.12.30 at 17h 00m 15s.xml">
       <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Sith_Adventure_test - 2017.12.30 at 15h 05m 20s.xml">
-      <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest - 2017.12.30 at 16h 46m 05s.xml">
+      <configuration name="DarthSidiousTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Sith_Adventure_test - 2017.12.30 at 15h 05m 53s.xml">
-      <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canChangeForcePower - 2017.12.30 at 16h 45m 10s.xml">
+      <configuration name="DarthSidiousTest.canChangeForcePower" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DarthSidiousTest_hasHealth - 2017.12.30 at 15h 52m 41s.xml">
-      <configuration name="DarthSidiousTest.hasHealth" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 40m 50s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DarthSidiousTest_hasName - 2017.12.30 at 15h 50m 48s.xml">
-      <configuration name="DarthSidiousTest.hasName" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 45m 43s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeathStarTest - 2017.12.30 at 14h 53m 33s.xml">
-      <configuration name="DeathStarTest" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 50m 23s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeathStarTest_canSummon - 2017.12.30 at 14h 51m 03s.xml">
-      <configuration name="DeathStarTest.canSummon" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 51m 59s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuperStarDestroyerTest - 2017.12.30 at 15h 05m 12s.xml">
-      <configuration name="SuperStarDestroyerTest" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 53m 33s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuperStarDestroyerTest_canSummon - 2017.12.30 at 15h 03m 43s.xml">
-      <configuration name="SuperStarDestroyerTest.canSummon" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 55m 51s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="force_ability_test_in_Sith_Adventure_test - 2017.12.29 at 15h 26m 21s.xml">
-      <configuration name="force_ability_test in Sith_Adventure_test" configurationId="JUnit" />
+    <history-entry file="DarthSidiousTest_canUseForce - 2017.12.30 at 16h 56m 50s.xml">
+      <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -908,7 +946,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -924,7 +962,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -948,10 +986,10 @@
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1181,22 +1219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sith/weapons/DoubleBladedLightsaber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sith/weapons/CrossGuardLightsaber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sith/weapons/Lightsaber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1244,20 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/players/fighters/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fighters_test/KyloRenTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -1289,8 +1297,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="false" />
             <element signature="e#195#196#0" expanded="false" />
-            <element signature="e#232#233#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1324,6 +1332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="563" column="0" lean-forward="false" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,22 +1341,6 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1375,16 +1368,6 @@
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1426,12 +1409,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/ForceLightning.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthPlagueis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/enemies_test/MaceWinduTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForceLightningTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1440,16 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1467,18 +1462,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthPlagueis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sith/weapons/DoubleBladedLightsaber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sith/weapons/CrossGuardLightsaber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="83" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="83" />
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1487,8 +1490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fighters_test/DarthVaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        <state relative-caret-position="316">
+          <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#725#726#0" expanded="true" />
@@ -1507,43 +1510,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/fighters/Fighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/ForceLightning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/force_ability_test/ForcePushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1514653212999" expanded="true" signature="500:571" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enemies_test/MaceWinduTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="530">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
             <element signature="e#1055#1056#0" expanded="true" />
             <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
           </folding>
         </state>
       </provider>
