@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" afterPath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" />
       <change beforePath="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" afterPath="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,12 +62,13 @@
       <file leaf-file-name="DarthSidiousTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            <state relative-caret-position="381">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#986#987#0" expanded="true" />
                 <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -615,7 +618,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarthSidiousTest.hasName">
+  <component name="RunManager" selected="JUnit.DarthSidiousTest.hasHealth">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -656,6 +659,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="DarthSidiousTest.hasHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="force_users_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Sith_Adventure_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="force_users_test" />
+      <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
+      <option name="METHOD_NAME" value="hasHealth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="DarthSidiousTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -670,31 +698,6 @@
       <option name="MAIN_CLASS_NAME" value="force_users_test.DarthSidiousTest" />
       <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DeathStarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="summons_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Sith_Adventure_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="summons_test" />
-      <option name="MAIN_CLASS_NAME" value="summons_test.DeathStarTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -818,18 +821,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DeathStarTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest.canSummon" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasName" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest.canSummon" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasHealth" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasName" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest.canSummon" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DeathStarTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasHealth" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.hasName" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SuperStarDestroyerTest.canSummon" />
       </list>
     </recent_temporary>
   </component>
@@ -859,6 +862,9 @@
     <history-entry file="All_in_Sith_Adventure_test - 2017.12.30 at 15h 05m 53s.xml">
       <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DarthSidiousTest_hasHealth - 2017.12.30 at 15h 52m 41s.xml">
+      <configuration name="DarthSidiousTest.hasHealth" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DarthSidiousTest_hasName - 2017.12.30 at 15h 50m 48s.xml">
       <configuration name="DarthSidiousTest.hasName" configurationId="JUnit" />
     </history-entry>
@@ -867,9 +873,6 @@
     </history-entry>
     <history-entry file="DeathStarTest_canSummon - 2017.12.30 at 14h 51m 03s.xml">
       <configuration name="DeathStarTest.canSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KyloRenTest_enemyHasName - 2017.12.29 at 14h 27m 59s.xml">
-      <configuration name="KyloRenTest.enemyHasName" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SuperStarDestroyerTest - 2017.12.30 at 15h 05m 12s.xml">
       <configuration name="SuperStarDestroyerTest" configurationId="JUnit" />
@@ -1534,12 +1537,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="381">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
             <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
           </folding>
         </state>
       </provider>
