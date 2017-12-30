@@ -1,4 +1,4 @@
-package force_users;
+package force_users.force_powers;
 
 import enemies.Enemy;
 
