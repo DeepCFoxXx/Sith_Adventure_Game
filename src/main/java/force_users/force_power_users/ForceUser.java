@@ -6,7 +6,7 @@ import force_users.force_powers.IAbility;
 import players.Player;
 import summons.ISummons;
 
-public class ForceUser extends Player {
+public abstract class ForceUser extends Player {
 
     private IAbility forcePower;
     private ISummons summons;
@@ -17,12 +17,4 @@ public class ForceUser extends Player {
         this.summons = summons;
     }
 
-//    public void use(Enemy enemy) {
-//        forcePower.use(enemy);
-//    }
-
-
-//    public void setForcePower(IAbility forcePush) {
-//        this.forcePower = forcePower;
-//    }
 }
