@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 public class DarthSidiousTest {
 
     DarthSidious darthSidious;
-    Enemy enemy;
+    MaceWindu maceWindu;
     ForceLightning forceLightning;
     ForcePush forcePush;
     DeathStar deathStar;
@@ -24,7 +24,7 @@ public class DarthSidiousTest {
     @Before
     public void before() {
         darthSidious = new DarthSidious("Darth Sidious", 400, forceLightning, deathStar);
-        enemy = new MaceWindu(100, 500, "Mace Windu");
+        maceWindu = new MaceWindu(100, 500, "Mace Windu");
         forceLightning = new ForceLightning();
         forcePush = new ForcePush();
         deathStar = new DeathStar();
@@ -41,11 +41,11 @@ public class DarthSidiousTest {
         assertEquals(400, darthSidious.getHealth());
     }
 
-//    @Test
-//    public void canUseForce() {
-//        darthSidious.use(enemy);
-//        assertEquals(400, enemy.getHealth());
-//    }
+    @Test
+    public void canUseForce() {
+        darthSidious.use(maceWindu);
+        assertEquals(400, maceWindu.getHealth());
+    }
 //
 //    @Test
 //    public void canChangeForcePower() {
@@ -74,16 +74,16 @@ public class DarthSidiousTest {
 
     @Test
     public void enemyHasName() {
-    assertEquals("Mace Windu", enemy.getName());
+    assertEquals("Mace Windu", maceWindu.getName());
     }
 
     @Test
     public void enemyHasHealth() {
-        assertEquals(500, enemy.getHealth());
+        assertEquals(500, maceWindu.getHealth());
     }
 
     @Test
     public void enemyHasAttack() {
-        assertEquals(100, enemy.getAttack());
+        assertEquals(100, maceWindu.getAttack());
     }
 }

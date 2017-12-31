@@ -8,13 +8,16 @@ import summons.ISummons;
 
 public abstract class ForceUser extends Player {
 
-    private IAbility forcePower;
+    private IAbility ability;
     private ISummons summons;
 
-    public ForceUser(String name, int health, IAbility forcePower, ISummons summons) {
+    public ForceUser(String name, int health, IAbility ability, ISummons summons) {
         super(name, health);
-        this.forcePower = forcePower;
+        this.ability = ability;
         this.summons = summons;
     }
 
+    public void use(Enemy enemy) {
+        this.ability.use(enemy);
+    }
 }

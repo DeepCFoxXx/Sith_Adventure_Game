@@ -6,8 +6,8 @@ import summons.ISummons;
 
 public class DarthSidious extends ForceUser {
 
-    public DarthSidious(String name, int health, IAbility forcePower, ISummons summons) {
-        super(name, health, forcePower, summons);
+    public DarthSidious(String name, int health, IAbility ability, ISummons summons) {
+        super(name, health, ability, summons);
     }
 
     public String speak() {
