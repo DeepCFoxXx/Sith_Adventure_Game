@@ -66,6 +66,12 @@ public class DarthSidiousTest {
 //        darthSidious.summon(enemy);
 //        assertEquals(-300, enemy.getHealth());
 //    }
+
+    @Test
+    public void canSpeak() {
+        assertEquals("Are you threatening me, Master Jedi?", darthSidious.speak());
+    }
+
     @Test
     public void enemyHasName() {
     assertEquals("Mace Windu", enemy.getName());

@@ -10,4 +10,7 @@ public class DarthSidious extends ForceUser {
         super(name, health, forcePower, summons);
     }
 
+    public String speak() {
+        return "Are you threatening me, Master Jedi?";
+    }
 }
