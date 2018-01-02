@@ -41,30 +41,9 @@ public class DarthSidiousTest {
         assertEquals(400, darthSidious.getHealth());
     }
 
-    @Test
-    public void canUseForce() {
-        darthSidious.use(maceWindu);
-        assertEquals(400, maceWindu.getHealth());
-    }
+//    @Test
+//    public void canUseAbility() {
 //
-//    @Test
-//    public void canChangeForcePower() {
-//        darthSidious.setForcePower(forcePush);
-//        darthSidious.use(enemy);
-//        assertEquals(430, enemy.getHealth());
-//    }
-//
-//    @Test
-//    public void canSummon() {
-//        darthSidious.summon(enemy);
-//        assertEquals(-500, enemy.getHealth());
-//    }
-
-//    @Test
-//    public void canChangeSummons() {
-//        darthSidious.setSummons();
-//        darthSidious.summon(enemy);
-//        assertEquals(-300, enemy.getHealth());
 //    }
 
     @Test

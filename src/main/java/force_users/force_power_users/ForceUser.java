@@ -1,6 +1,7 @@
 package force_users.force_power_users;
 
 import enemies.Enemy;
+import enemies.MaceWindu;
 import force_users.force_powers.ForcePush;
 import force_users.force_powers.IAbility;
 import players.Player;
@@ -17,7 +18,4 @@ public abstract class ForceUser extends Player {
         this.summons = summons;
     }
 
-    public void use(Enemy enemy) {
-        this.ability.use(enemy);
-    }
 }
