@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rooms_test/EnemyRoomTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/ForceUser.class" afterPath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/ForceUser.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" afterPath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,23 +29,47 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rooms/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyRoom.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnemyRoom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="126">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyRoomTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rooms_test/EnemyRoomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -352,7 +381,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ReyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PloKoonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Finn.java" />
         <option value="$PROJECT_DIR$/src/test/java/FinnTest.java" />
@@ -401,8 +429,9 @@
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rooms/Room.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rooms_test/EnemyRoomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rooms/Room.java" />
       </list>
     </option>
   </component>
@@ -589,6 +618,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rooms_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sith_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sith_Adventure_Game" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="weapons_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -622,7 +659,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarthSidiousTest.canUseForce">
+  <component name="RunManager" selected="JUnit.EnemyRoomTest.canNotExit">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -718,19 +755,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ForceHealTest.canHeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnemyRoomTest.canNotExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="force_healer_test.*" />
+          <option name="PATTERN" value="rooms_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Sith_Adventure_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="force_healer_test" />
-      <option name="MAIN_CLASS_NAME" value="force_healer_test.ForceHealTest" />
-      <option name="METHOD_NAME" value="canHeal" />
+      <option name="PACKAGE_NAME" value="rooms_test" />
+      <option name="MAIN_CLASS_NAME" value="rooms_test.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="canNotExit" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -743,19 +780,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ForceHealerTest.canForceHeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnemyRoomTest.hasEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="force_healer_test.*" />
+          <option name="PATTERN" value="rooms_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Sith_Adventure_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="force_healer_test" />
-      <option name="MAIN_CLASS_NAME" value="force_healer_test.ForceHealerTest" />
-      <option name="METHOD_NAME" value="canForceHeal" />
+      <option name="PACKAGE_NAME" value="rooms_test" />
+      <option name="MAIN_CLASS_NAME" value="rooms_test.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="hasEnemy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -829,19 +866,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ForceHealerTest.canForceHeal" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ForceHealTest.canHeal" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DarthVaderTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canUseForce" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DarthVaderTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canUseForce" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EnemyRoomTest.hasEnemy" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EnemyRoomTest.canNotExit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canUseForce" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DarthVaderTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ForceHealTest.canHeal" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ForceHealerTest.canForceHeal" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EnemyRoomTest.canNotExit" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EnemyRoomTest.hasEnemy" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest.canUseForce" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DarthSidiousTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DarthVaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -862,9 +899,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DarthSidiousTest - 2017.12.31 at 13h 21m 26s.xml">
-      <configuration name="DarthSidiousTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DarthSidiousTest_canUseForce - 2017.12.31 at 13h 28m 33s.xml">
       <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
@@ -889,8 +923,11 @@
     <history-entry file="DarthSidiousTest_canUseForce - 2017.12.31 at 13h 37m 09s.xml">
       <configuration name="DarthSidiousTest.canUseForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DarthVaderTest - 2017.12.31 at 13h 18m 03s.xml">
-      <configuration name="DarthVaderTest" configurationId="JUnit" />
+    <history-entry file="EnemyRoomTest_canNotExit - 2018.01.02 at 16h 44m 13s.xml">
+      <configuration name="EnemyRoomTest.canNotExit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnemyRoomTest_hasEnemy - 2018.01.02 at 16h 44m 08s.xml">
+      <configuration name="EnemyRoomTest.hasEnemy" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -905,7 +942,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -938,17 +975,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/enemies/Finn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#128#129#0" expanded="false" />
-            <element signature="e#172#173#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/enemies_test/FinnTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1474,7 +1500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="583">
           <caret line="46" column="7" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1496,21 +1522,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rooms/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="126">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rooms_test/EnemyRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>

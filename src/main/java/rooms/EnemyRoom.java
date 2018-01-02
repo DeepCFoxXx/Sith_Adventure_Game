@@ -12,7 +12,6 @@ public class EnemyRoom extends Room {
        randomEnemy();
        setCanExit(false);
     }
-    
 
     public void randomEnemy() {
         int result = getRandomNumber(2);
@@ -24,5 +23,7 @@ public class EnemyRoom extends Room {
     }
 
 
-
+    public Enemy getEnemy() {
+        return enemy;
+    }
 }

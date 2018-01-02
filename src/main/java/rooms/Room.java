@@ -10,6 +10,14 @@ public abstract class Room {
         this.canExit = true;
     }
 
+    public void setCanExit(boolean canExit) {
+        this.canExit = canExit;
+    }
+
+    public boolean canExit(){
+        return canExit;
+    }
+
     public int getRandomNumber(int max) {
         Random rand = new Random();
         return rand.nextInt(max);
