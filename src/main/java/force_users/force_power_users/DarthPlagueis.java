@@ -9,4 +9,7 @@ public class DarthPlagueis extends ForceUser {
         super(name, health, ability, summons);
     }
 
+    public String speak() {
+        return "The power of the dark side is an illness no true Sith would wish to be cured of";
+    }
 }
