@@ -5,6 +5,7 @@ import force_users.force_powers.ForcePush;
 import force_users.force_powers.IAbility;
 import players.Player;
 import summons.ISummons;
+import summons.SuperStarDestroyer;
 
 
 public abstract class ForceUser extends Player {
@@ -18,15 +19,6 @@ public abstract class ForceUser extends Player {
         this.summons =summons;
     }
 
-//    public void setAbility(IAbility ability) {
-//        this.ability = ability;
-//    }
-
-
-    public void setSummons(ISummons summons) {
-        this.summons = summons;
-    }
-
     public void use(Enemy enemy) {
         this.ability.use(enemy);
     }
@@ -37,5 +29,9 @@ public abstract class ForceUser extends Player {
 
     public void setAbility(IAbility forcePush) {
         this.ability = forcePush;
+    }
+
+    public void setSummons(ISummons superStarDestroyer) {
+        this.summons = superStarDestroyer;
     }
 }

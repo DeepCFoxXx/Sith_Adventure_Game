@@ -10,4 +10,7 @@ public class DarthSidious extends ForceUser {
     }
 
 
+    public String speak() {
+        return "Are you threatening me master jedi ?";
+    }
 }

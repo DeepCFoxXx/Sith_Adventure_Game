@@ -59,4 +59,44 @@ public class DarthSidiousTest  {
         assertEquals(-500, enemy.getHealth());
     }
 
+    @Test
+    public void canChangeSummons() {
+        darthSidious = new DarthSidious("Darth Sidious", 600, forceLightning, deathStar);
+        enemy = new MaceWindu(150, 500, "Mace Windu");
+        superStarDestroyer = new SuperStarDestroyer();
+        darthSidious.setSummons(superStarDestroyer);
+        darthSidious.summon(enemy);
+        assertEquals(-100, enemy.getHealth());
+    }
+
+    @Test
+    public void hasName() {
+        assertEquals("Darth Sidious", darthSidious.getName());
+    }
+
+    @Test
+    public void hasHealth() {
+        assertEquals(600, darthSidious.getHealth());
+    }
+
+    @Test
+    public void canSpeak() {
+        assertEquals("Are you threatening me master jedi ?", darthSidious.speak());
+    }
+
+    @Test
+    public void enemyHasName(){
+        assertEquals("Mace Windu", enemy.getName());
+    }
+
+    @Test
+    public void enemyHasAttack(){
+        assertEquals(150, enemy.getAttack());
+    }
+
+    @Test
+    public void enemyHasHealth(){
+        assertEquals(500, enemy.getHealth());
+    }
+
 }
