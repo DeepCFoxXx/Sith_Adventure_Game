@@ -41,6 +41,16 @@ public class DarthSidiousTest  {
     }
 
     @Test
+    public void canChangeAbility() {
+        darthSidious = new DarthSidious("Darth Sidious", 600, forceLightning, deathStar);
+        enemy = new MaceWindu(150, 500, "Mace Windu");
+        forcePush = new ForcePush();
+        darthSidious.setAbility(forcePush);
+        darthSidious.use(enemy);
+        assertEquals(430, enemy.getHealth());
+    }
+
+    @Test
     public void canUseSummon() {
         darthSidious = new DarthSidious("Darth Sidious", 600, forceLightning, deathStar);
         enemy = new MaceWindu(150, 500, "Mace Windu");

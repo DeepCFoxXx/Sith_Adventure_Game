@@ -1,6 +1,7 @@
 package force_users.force_power_users;
 
 import enemies.Enemy;
+import force_users.force_powers.ForcePush;
 import force_users.force_powers.IAbility;
 import players.Player;
 import summons.ISummons;
@@ -17,13 +18,10 @@ public abstract class ForceUser extends Player {
         this.summons =summons;
     }
 
-    public void setAbility(IAbility ability) {
-        this.ability = ability;
-    }
-
-//    public void summon(Enemy enemy) {
-//        this.summons.summon(enemy);
+//    public void setAbility(IAbility ability) {
+//        this.ability = ability;
 //    }
+
 
     public void setSummons(ISummons summons) {
         this.summons = summons;
@@ -35,5 +33,9 @@ public abstract class ForceUser extends Player {
 
     public void summon(Enemy enemy) {
         this.summons.summon(enemy);
+    }
+
+    public void setAbility(IAbility forcePush) {
+        this.ability = forcePush;
     }
 }
