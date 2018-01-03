@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/DarthPlagueis.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/DarthSidious.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/force_users/force_power_users/ForceUser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/force_healer_test/ForceHealTest.class" afterPath="$PROJECT_DIR$/out/test/classes/force_healer_test/ForceHealTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/force_users_test/DarthSidiousTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthPlagueis.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java" afterPath="$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,37 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IForceHeal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/force_healer/IForceHeal.java">
+      <file leaf-file-name="IAbility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForceHeal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/force_healer/ForceHeal.java">
+      <file leaf-file-name="ForceUser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForceHealTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -414,7 +393,6 @@
         <option value="$PROJECT_DIR$/src/main/java/force_healer/IForceHeal.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" />
-        <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/rooms_test/EnemyRoomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" />
@@ -426,6 +404,7 @@
         <option value="$PROJECT_DIR$/src/main/java/artifacts/JediHolocron.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_healer/ForceHeal.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
       </list>
     </option>
   </component>
@@ -507,6 +486,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="force_users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sith_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sith_Adventure_Game" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="force_users" type="462c0819:PsiDirectoryNode" />
+              <item name="force_power_users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sith_Adventure" type="b2602c69:ProjectViewProjectNode" />
@@ -635,6 +623,9 @@
       <pane id="Scratches" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -652,7 +643,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ForceHealTest.canHeal">
+  <component name="RunManager" selected="JUnit.All in Sith_Adventure_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -862,8 +853,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ForceHealTest.canHeal" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Sith_Adventure_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ForceHealTest.canHeal" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.artifacts_test in Sith_Adventure_test" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.JediHolocronTest.getValue" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.SithHolocronTest.hasValue" />
@@ -890,6 +881,9 @@
     <history-entry file="All_in_Sith_Adventure_test - 2018.01.03 at 13h 44m 04s.xml">
       <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Sith_Adventure_test - 2018.01.03 at 14h 01m 23s.xml">
+      <configuration name="All in Sith_Adventure_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ForceHealTest_canHeal - 2018.01.03 at 13h 45m 33s.xml">
       <configuration name="ForceHealTest.canHeal" configurationId="JUnit" />
     </history-entry>
@@ -907,9 +901,6 @@
     </history-entry>
     <history-entry file="ForceHealTest_canHeal - 2018.01.03 at 13h 56m 11s.xml">
       <configuration name="ForceHealTest.canHeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JediHolocronTest_getValue - 2018.01.02 at 17h 33m 38s.xml">
-      <configuration name="JediHolocronTest.getValue" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SithHolocronTest_hasValue - 2018.01.02 at 17h 15m 32s.xml">
       <configuration name="SithHolocronTest.hasValue" configurationId="JUnit" />
@@ -930,7 +921,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1242,21 +1233,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#287#288#0" expanded="false" />
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,14 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/force_healer/ForceHeal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1376,6 +1353,34 @@
             <element signature="e#181#182#0" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
           </folding>
         </state>
       </provider>
