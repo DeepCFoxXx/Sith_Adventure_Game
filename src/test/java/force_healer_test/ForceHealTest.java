@@ -24,6 +24,6 @@ public class ForceHealTest {
     @Test
     public void canHeal() {
         forceHeal.heal(darthVader);
-        assertEquals(1050, darthVader.getHealth());
+        assertEquals(1000, darthVader.getHealth());
     }
 }
