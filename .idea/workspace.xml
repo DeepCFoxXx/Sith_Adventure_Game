@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174aea9e-82ed-4f84-a623-5f7f0db9084c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" afterPath="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,15 +36,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForceUser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForceUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="411">
+              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DarthSidious.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DarthSidiousTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -392,8 +424,6 @@
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_powers/IAbility.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_healer/IForceHeal.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" />
-        <option value="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/rooms_test/EnemyRoomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/rooms/Room.java" />
@@ -405,6 +435,8 @@
         <option value="$PROJECT_DIR$/src/main/java/force_healer/ForceHeal.java" />
         <option value="$PROJECT_DIR$/src/test/java/force_healer_test/ForceHealTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java" />
+        <option value="$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java" />
       </list>
     </option>
   </component>
@@ -589,6 +621,14 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="force_healer_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sith_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sith_Adventure_Game" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="force_users_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sith_Adventure" type="b2602c69:ProjectViewProjectNode" />
@@ -1012,6 +1052,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#182#183#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,14 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/summons/ISummons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1242,14 +1278,6 @@
             <element signature="e#425#426#0" expanded="false" />
             <element signature="e#462#463#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,12 +1403,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/ForceUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="411">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/force_users/force_power_users/DarthSidious.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/force_users_test/DarthSidiousTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
