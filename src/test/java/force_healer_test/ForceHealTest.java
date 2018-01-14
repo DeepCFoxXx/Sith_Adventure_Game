@@ -3,6 +3,7 @@ package force_healer_test;
 import force_healer.ForceHeal;
 import org.junit.Before;
 import org.junit.Test;
+import players.Player;
 import players.fighters.DarthVader;
 import sith.weapons.Lightsaber;
 
@@ -22,8 +23,12 @@ public class ForceHealTest {
     }
 
     @Test
-    public void canHeal() {
-        forceHeal.heal(darthVader);
-        assertEquals(1000, darthVader.getHealth());
+    public void forceHealHasHealthValue() {
+        assertEquals(50, forceHeal.getHealValue());
     }
+//    @Test
+//    public void canHeal() {
+//        forceHeal.heal(darthVader);
+//        assertEquals(1050, darthVader.getHealth());
+//    }
 }

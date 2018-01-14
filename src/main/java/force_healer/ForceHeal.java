@@ -2,7 +2,7 @@ package force_healer;
 
 import players.Player;
 
-public class ForceHeal implements IForceHeal {
+public class ForceHeal {
 
     private int healValue;
 
@@ -10,8 +10,14 @@ public class ForceHeal implements IForceHeal {
         this.healValue = 50;
     }
 
-    public void heal(Player player){
-        player.getHealth();
+    public int getHealValue() {
+        return this.healValue;
     }
+
+
+//    public void heal(Player player){
+//        player.getHealth(this.healValue);
+//    }
+//    implements IForceHea
 
 }
