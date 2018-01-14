@@ -27,6 +27,7 @@ public class ForceHealTest {
     public void forceHealHasHealthValue() {
         assertEquals(50, forceHeal.getHealValue());
     }
+
     @Test
     public void canHeal() {
         regen = new ForceHeal();

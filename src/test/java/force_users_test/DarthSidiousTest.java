@@ -2,6 +2,8 @@ package force_users_test;
 
 import enemies.Enemy;
 import enemies.MaceWindu;
+import force_healer.ForceHeal;
+import force_healer.Regen;
 import force_users.force_power_users.DarthSidious;
 import force_users.force_powers.ForceLightning;
 import force_users.force_powers.ForcePush;
@@ -20,6 +22,7 @@ public class DarthSidiousTest  {
     ForcePush forcePush;
     DeathStar deathStar;
     SuperStarDestroyer superStarDestroyer;
+    Regen regen;
 
     @Before
     public void before() {
@@ -97,6 +100,13 @@ public class DarthSidiousTest  {
     @Test
     public void enemyHasHealth(){
         assertEquals(500, enemy.getHealth());
+    }
+
+    @Test
+    public void canHeal() {
+        regen = new ForceHeal();
+        darthSidious.heal(50);
+        assertEquals(650, darthSidious.getHealth());
     }
 
 }

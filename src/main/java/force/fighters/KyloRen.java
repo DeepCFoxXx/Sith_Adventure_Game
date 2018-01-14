@@ -15,7 +15,7 @@ public class KyloRen extends Fighter {
 
     public void canStartToRage() {
         Random rand = new Random();
-        int amountOfRage = rand.nextInt(10);
+        int amountOfRage = rand.nextInt(100);
         this.rage += amountOfRage;
     }
 
