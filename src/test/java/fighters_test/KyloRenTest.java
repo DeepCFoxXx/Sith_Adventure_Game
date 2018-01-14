@@ -2,6 +2,8 @@ package fighters_test;
 
 import enemies.Enemy;
 import enemies.Rey;
+import force_healer.ForceHeal;
+import force_healer.Regen;
 import org.junit.Before;
 import org.junit.Test;
 import force.fighters.KyloRen;
@@ -17,6 +19,7 @@ public class KyloRenTest {
     Enemy enemy;
     IWeapon crossGuardLightsaber;
     IWeapon lightsaber;
+    Regen regen;
 
     @Before
     public void before() {
@@ -81,5 +84,10 @@ public class KyloRenTest {
         assertEquals(600, enemy.getHealth());
     }
 
-
+    @Test
+    public void canHeal() {
+        regen = new ForceHeal();
+        kyloRen.heal(50);
+        assertEquals(650, kyloRen.getHealth());
+    }
 }

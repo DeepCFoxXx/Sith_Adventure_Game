@@ -2,6 +2,8 @@ package fighters_test;
 
 import enemies.Enemy;
 import enemies.MaceWindu;
+import force_healer.ForceHeal;
+import force_healer.Regen;
 import org.junit.Before;
 import org.junit.Test;
 import force.fighters.DarthMaul;
@@ -17,6 +19,7 @@ public class DarthMaulTest {
     Enemy enemy;
     IWeapon doubleBladedLightsaber;
     IWeapon lightsaber;
+    Regen regen;
 
     @Before
     public void before() {
@@ -79,4 +82,11 @@ public class DarthMaulTest {
     public void enemyHasHealth(){
         assertEquals(500, enemy.getHealth());
      }
+
+    @Test
+    public void canHeal() {
+        regen = new ForceHeal();
+        darthMaul.heal(50);
+        assertEquals(600, darthMaul.getHealth());
+    }
 }

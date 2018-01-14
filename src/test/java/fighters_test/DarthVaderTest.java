@@ -3,6 +3,8 @@ package fighters_test;
 
 import enemies.Enemy;
 import enemies.Yoda;
+import force_healer.ForceHeal;
+import force_healer.Regen;
 import org.junit.Before;
 import org.junit.Test;
 import force.fighters.DarthVader;
@@ -18,6 +20,7 @@ public class DarthVaderTest {
     Enemy enemy;
     IWeapon lightsaber;
     IWeapon crossGuardLightsaber;
+    Regen regen;
 
     @Before
     public void before(){
@@ -79,5 +82,12 @@ public class DarthVaderTest {
     @Test
     public void enemyHasAttack() {
         assertEquals(50, enemy.getAttack());
+    }
+
+    @Test
+    public void canHeal() {
+        regen = new ForceHeal();
+        darthVader.heal(50);
+        assertEquals(1050, darthVader.getHealth());
     }
 }
