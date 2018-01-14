@@ -1,10 +1,10 @@
 package force_healer_test;
 
 import force_healer.ForceHeal;
+import force_healer.Regen;
 import org.junit.Before;
 import org.junit.Test;
-import players.Player;
-import players.fighters.DarthVader;
+import force.fighters.DarthVader;
 import sith.weapons.Lightsaber;
 
 import static org.junit.Assert.assertEquals;
@@ -14,6 +14,7 @@ public class ForceHealTest {
     ForceHeal forceHeal;
     Lightsaber lightsaber;
     DarthVader darthVader;
+    Regen regen;
 
     @Before
     public void before() {
@@ -26,9 +27,10 @@ public class ForceHealTest {
     public void forceHealHasHealthValue() {
         assertEquals(50, forceHeal.getHealValue());
     }
-//    @Test
-//    public void canHeal() {
-//        forceHeal.heal(darthVader);
-//        assertEquals(1050, darthVader.getHealth());
-//    }
+    @Test
+    public void canHeal() {
+        regen = new ForceHeal();
+        darthVader.heal(50);
+        assertEquals(1050, darthVader.getHealth());
+    }
 }

@@ -4,7 +4,7 @@ import enemies.Enemy;
 import enemies.Rey;
 import org.junit.Before;
 import org.junit.Test;
-import players.fighters.KyloRen;
+import force.fighters.KyloRen;
 import sith.weapons.CrossGuardLightsaber;
 import sith.weapons.IWeapon;
 import sith.weapons.Lightsaber;

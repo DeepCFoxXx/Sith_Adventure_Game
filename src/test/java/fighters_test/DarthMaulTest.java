@@ -4,7 +4,7 @@ import enemies.Enemy;
 import enemies.MaceWindu;
 import org.junit.Before;
 import org.junit.Test;
-import players.fighters.DarthMaul;
+import force.fighters.DarthMaul;
 import sith.weapons.DoubleBladedLightsaber;
 import sith.weapons.IWeapon;
 import sith.weapons.Lightsaber;

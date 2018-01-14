@@ -1,4 +1,4 @@
-package players.fighters;
+package force.fighters;
 
 import sith.weapons.IWeapon;
 

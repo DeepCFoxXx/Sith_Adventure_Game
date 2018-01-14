@@ -5,7 +5,7 @@ import enemies.Enemy;
 import enemies.Yoda;
 import org.junit.Before;
 import org.junit.Test;
-import players.fighters.DarthVader;
+import force.fighters.DarthVader;
 import sith.weapons.CrossGuardLightsaber;
 import sith.weapons.IWeapon;
 import sith.weapons.Lightsaber;

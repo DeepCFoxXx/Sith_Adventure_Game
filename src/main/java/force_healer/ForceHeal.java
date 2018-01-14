@@ -1,8 +1,7 @@
 package force_healer;
 
-import players.Player;
 
-public class ForceHeal {
+public class ForceHeal  implements Regen {
 
     private int healValue;
 
@@ -14,10 +13,5 @@ public class ForceHeal {
         return this.healValue;
     }
 
-
-//    public void heal(Player player){
-//        player.getHealth(this.healValue);
-//    }
-//    implements IForceHea
 
 }

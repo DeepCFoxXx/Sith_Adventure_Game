@@ -1,4 +1,4 @@
-package players.fighters;
+package force.fighters;
 
 import enemies.Enemy;
 import players.Player;
